@@ -1191,6 +1191,11 @@ img:hover {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-height: 13rem;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 #sidebar .author-info-links__name:hover {
   background: #ff7242;
