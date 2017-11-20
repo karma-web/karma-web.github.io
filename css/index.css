@@ -1196,6 +1196,7 @@ img:hover {
   overflow: hidden;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
+  border-radius: 0.5rem;
 }
 #sidebar .author-info-links__name:hover {
   background: #ff7242;
