@@ -259,9 +259,9 @@
 <p>（2）代码实例</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;parent&quot;&gt;</div><div class="line">    &lt;div class=&quot;left&quot;&gt;</div><div class="line">        &lt;p&gt;left&lt;/p&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">    &lt;div class=&quot;center&quot;&gt;</div><div class="line">        &lt;p&gt;center&lt;/p&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">    &lt;div class=&quot;right&quot;&gt;</div><div class="line">        &lt;p&gt;right&lt;/p&gt;</div><div class="line">        &lt;p&gt;right&lt;/p&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">.left,.center&#123;</div><div class="line">    float: left;</div><div class="line">    margin-right: 20px;</div><div class="line">&#125;</div><div class="line">.right&#123;</div><div class="line">    overflow: hidden;</div><div class="line">&#125;</div><div class="line">.left p,.center p&#123;</div><div class="line">    width: 100px;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h4 id="等分布局"><a href="#等分布局" class="headerlink" title="等分布局"></a>等分布局</h4><p><img src="https://segmentfault.com/img/bV5ioR?w=619&amp;h=362" alt="img"></p>
+<h4 id="等分布局"><a href="#等分布局" class="headerlink" title="等分布局"></a>等分布局</h4><p><img src="/css居中布局，多列布局，全屏布局/3243512925-5aa1c4e073b19_articlex.png" alt="3243512925-5aa1c4e073b19_articlex"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">公式转化:</div><div class="line">l = w * n + g * (n-1) -&gt; l = w * n + g * n - g -&gt; l + g = （w + g） * n</div></pre></td></tr></table></figure>
-<p><img src="https://segmentfault.com/img/bV5ioO?w=610&amp;h=375" alt="img"></p>
+<p><img src="/css居中布局，多列布局，全屏布局/x962188203-5aa1c473ab9d1_articlex.jpg" alt="x962188203-5aa1c473ab9d1_articlex"></p>
 <p>因此，我们需要解决两个问题：</p>
 <ul>
 <li>如何让总宽度增加g(即：L+g)</li>
@@ -356,7 +356,7 @@
 <li>滚动条不是全局滚动条，而是出现在内容区域里，往往是主内容区域</li>
 <li>浏览器变大时，撑满窗口</li>
 </ul>
-<h4 id="全屏布局的方法"><a href="#全屏布局的方法" class="headerlink" title="全屏布局的方法"></a>全屏布局的方法</h4><p><img src="https://segmentfault.com/img/bV5im3?w=1144&amp;h=776" alt="img"></p>
+<h4 id="全屏布局的方法"><a href="#全屏布局的方法" class="headerlink" title="全屏布局的方法"></a>全屏布局的方法</h4><p><img src="/css居中布局，多列布局，全屏布局/s3697930859-5aa1a318d836c_articlex.png" alt="img"></p>
 <p>1）使用position<br>（1）原理、用法</p>
 <ul>
 <li>原理：将上下部分固定，中间部分使用定宽+自适应+两块高度一样高。</li>
@@ -381,7 +381,7 @@
 <ul>
 <li>缺点：兼容性差，ie9及ie9以下不兼容</li>
 </ul>
-<p><img src="https://segmentfault.com/img/bV5im4?w=1162&amp;h=790" alt="img"></p>
+<p><img src="/css居中布局，多列布局，全屏布局/59502518-5aa1a32eac83b_articlex.png" alt="img"></p>
 <p>1）使用flex<br>（1）原理、用法</p>
 <ul>
 <li>原理：通过灵活使用CSS3布局利器flex中的flex属性和flex-direction属性以达到全屏布局。</li>
