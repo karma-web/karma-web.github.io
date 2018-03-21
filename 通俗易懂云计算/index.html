@@ -6,13 +6,11 @@
     error: '复制错误',
     noSupport: '浏览器不支持'
   }
-} </script><link rel="icon" href="/favicon.ico"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="文章详情">Blog概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://avatars2.githubusercontent.com/u/17785285?v=4&amp;s=460"></div><div class="author-info__name text-center">karma</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">28</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">28</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">6</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">Links</div><a class="author-info-links__name text-center" href="https://github.com/fouber/blog" target="_blank">Fouber</a><a class="author-info-links__name text-center" href="https://www.jiumodiary.com/" target="_blank">Jiumodiary</a><a class="author-info-links__name text-center" href="http://chuangzaoshi.com/" target="_blank">Creative</a><a class="author-info-links__name text-center" href="http://antv.alipay.com/zh-cn/index.html" target="_blank">AntV数据可视化</a><a class="author-info-links__name text-center" href="http://www.cnblogs.com/sskyy/" target="_blank">候振宇</a><a class="author-info-links__name text-center" href="http://janhuenermann.com/" target="_blank">德国天才</a><a class="author-info-links__name text-center" href="http://www.ruanyifeng.com/blog/" target="_blank">ruanyf</a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://cn.bing.com/az/hprichbg/rb/CorricellaMarina_ZH-CN11169480773_1920x1080.jpg);"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">karma's blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/about">About</a></span></div><div id="post-info"><div id="post-title">通俗易懂云计算</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-03-21 </time><span class="post-meta__separator"> | </span><i class="fa fa-inbox" aria-hidden="true"> </i><a class="post-meta__categories" href="/categories/技术/"> 技术  </a></div></div></div><div class="layout" id="content-inner"><article id="post"><div id="post-content"><p>一般谈云计算的时候会提到大数据、谈人工智能的时候会提大数据、谈人工智能的时候会提云计算……感觉三者之间相辅相成又不可分割。</p>
+} </script><link rel="icon" href="/favicon.ico"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="文章详情">Blog概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#云计算最初的目标（IaaS）"><span class="toc-number">1.</span> <span class="toc-text">云计算最初的目标（IaaS）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#管数据中心就像配电脑"><span class="toc-number">1.1.</span> <span class="toc-text">管数据中心就像配电脑</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#灵活就是想啥时要都有，想要多少都行"><span class="toc-number">1.2.</span> <span class="toc-text">灵活就是想啥时要都有，想要多少都行</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#虚拟世界的赚钱与情怀"><span class="toc-number">1.3.</span> <span class="toc-text">虚拟世界的赚钱与情怀</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#虚拟化的半自动和云计算的全自动"><span class="toc-number">1.4.</span> <span class="toc-text">虚拟化的半自动和云计算的全自动</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#云计算的私有与公有"><span class="toc-number">1.5.</span> <span class="toc-text">云计算的私有与公有</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#云计算的赚钱与情怀"><span class="toc-number">1.6.</span> <span class="toc-text">云计算的赚钱与情怀</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#云计算不光管资源，也要管应用（PaaS）"><span class="toc-number">2.</span> <span class="toc-text">云计算不光管资源，也要管应用（PaaS）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#大数据拥抱云计算（SaaS）"><span class="toc-number">3.</span> <span class="toc-text">大数据拥抱云计算（SaaS）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#数据不大也包含智慧"><span class="toc-number">3.1.</span> <span class="toc-text">数据不大也包含智慧</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据如何升华为智慧"><span class="toc-number">3.2.</span> <span class="toc-text">数据如何升华为智慧</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#大数据时代，众人拾柴火焰高"><span class="toc-number">3.3.</span> <span class="toc-text">大数据时代，众人拾柴火焰高</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#大数据需要云计算，云计算需要大数据"><span class="toc-number">3.4.</span> <span class="toc-text">大数据需要云计算，云计算需要大数据</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#机器什么时候才能懂人心"><span class="toc-number">3.5.</span> <span class="toc-text">机器什么时候才能懂人心</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#让机器学会推理"><span class="toc-number">3.5.1.</span> <span class="toc-text">让机器学会推理</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#教给机器知识"><span class="toc-number">3.5.2.</span> <span class="toc-text">教给机器知识</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#算了，教不会你自己学吧"><span class="toc-number">3.5.3.</span> <span class="toc-text">算了，教不会你自己学吧</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#模拟大脑的工作方式"><span class="toc-number">3.5.4.</span> <span class="toc-text">模拟大脑的工作方式</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#没道理但做得到"><span class="toc-number">3.5.5.</span> <span class="toc-text">没道理但做得到</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#人工智能的经济学解释"><span class="toc-number">3.5.6.</span> <span class="toc-text">人工智能的经济学解释</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#人工智能需要大数据"><span class="toc-number">3.5.7.</span> <span class="toc-text">人工智能需要大数据</span></a></li></ol></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://avatars2.githubusercontent.com/u/17785285?v=4&amp;s=460"></div><div class="author-info__name text-center">karma</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">28</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">28</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">6</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">Links</div><a class="author-info-links__name text-center" href="https://github.com/fouber/blog" target="_blank">Fouber</a><a class="author-info-links__name text-center" href="https://www.jiumodiary.com/" target="_blank">Jiumodiary</a><a class="author-info-links__name text-center" href="http://chuangzaoshi.com/" target="_blank">Creative</a><a class="author-info-links__name text-center" href="http://antv.alipay.com/zh-cn/index.html" target="_blank">AntV数据可视化</a><a class="author-info-links__name text-center" href="http://www.cnblogs.com/sskyy/" target="_blank">候振宇</a><a class="author-info-links__name text-center" href="http://janhuenermann.com/" target="_blank">德国天才</a><a class="author-info-links__name text-center" href="http://www.ruanyifeng.com/blog/" target="_blank">ruanyf</a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://cn.bing.com/az/hprichbg/rb/CorricellaMarina_ZH-CN11169480773_1920x1080.jpg);"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">karma's blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/about">About</a></span></div><div id="post-info"><div id="post-title">通俗易懂云计算</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-03-21 </time><span class="post-meta__separator"> | </span><i class="fa fa-inbox" aria-hidden="true"> </i><a class="post-meta__categories" href="/categories/技术/"> 技术  </a></div></div></div><div class="layout" id="content-inner"><article id="post"><div id="post-content"><p>一般谈云计算的时候会提到大数据、谈人工智能的时候会提大数据、谈人工智能的时候会提云计算……感觉三者之间相辅相成又不可分割。</p>
 <p>但如果是非技术的人员，就可能比较难理解这三者之间的相互关系，所以有必要解释一下。</p>
-<p>云计算最初的目标</p>
-<p>我们首先来说云计算。云计算最初的目标是对资源的管理，管理的主要是计算资源、网络资源、存储资源三个方面。</p>
+<h3 id="云计算最初的目标（IaaS）"><a href="#云计算最初的目标（IaaS）" class="headerlink" title="云计算最初的目标（IaaS）"></a>云计算最初的目标（IaaS）</h3><p>我们首先来说云计算。云计算最初的目标是对资源的管理，管理的主要是计算资源、网络资源、存储资源三个方面。</p>
 <p><img src="/通俗易懂云计算/640.webp" alt="img"></p>
-<p><strong>管数据中心就像配电脑</strong></p>
-<p>什么叫计算、网络、存储资源？</p>
+<h4 id="管数据中心就像配电脑"><a href="#管数据中心就像配电脑" class="headerlink" title="管数据中心就像配电脑"></a>管数据中心就像配电脑</h4><p>什么叫计算、网络、存储资源？</p>
 <p>比如你要买台笔记本电脑，是不是要关心这台电脑是什么样的 CPU？多大的内存？这两个就被我们称为计算资源。</p>
 <p>这台电脑要上网，就需要有个可以插网线的网口，或者有可以连接我们家路由器的无线网卡。</p>
 <p>您家也需要到运营商比如联通、移动或者电信开通一个网络，比如 100M 的带宽。然后会有师傅弄一根网线到您家来，师傅可能会帮您将您的路由器和他们公司的网络连接配置好。</p>
@@ -20,8 +18,7 @@
 <p>您可能还会问硬盘多大？过去的硬盘都很小，大小如 10G 之类的；后来即使 500G、1T、2T 的硬盘也不新鲜了。(1T 是 1000G)，这就是存储资源。</p>
 <p>对于一台电脑是这个样子的，对于一个数据中心也是同样的。想象你有一个非常非常大的机房，里面堆了很多的服务器，这些服务器也是有 CPU、内存、硬盘的，也是通过类似路由器的设备上网的。</p>
 <p>这时的问题就是：运营数据中心的人是怎么把这些设备统一的管理起来的呢？</p>
-<p><strong>灵活就是想啥时要都有，想要多少都行</strong></p>
-<p>管理的目标就是要达到两个方面的灵活性。具体哪两个方面呢？</p>
+<h4 id="灵活就是想啥时要都有，想要多少都行"><a href="#灵活就是想啥时要都有，想要多少都行" class="headerlink" title="灵活就是想啥时要都有，想要多少都行"></a>灵活就是想啥时要都有，想要多少都行</h4><p>管理的目标就是要达到两个方面的灵活性。具体哪两个方面呢？</p>
 <p><strong>举个例子来理解：</strong>比如有个人需要一台很小的电脑，只有一个 CPU、1G 内存、10G 的硬盘、一兆的带宽，你能给他吗？</p>
 <p>像这么小规格的电脑，现在随便一个笔记本电脑都比这个配置强了，家里随便拉一个宽带都要 100M。然而如果去一个云计算的平台上，他想要这个资源时，只要一点就有了。</p>
 <p>这种情况下它就能达到两个方面的灵活性：</p>
@@ -57,8 +54,7 @@
 <p>而且如果事先物理设备都准备好，虚拟化软件虚拟出一个电脑是非常快的，基本上几分钟就能解决。所以在任何一个云上要创建一台电脑，一点几分钟就出来了，就是这个道理。</p>
 <p>这样空间灵活性和时间灵活性就基本解决了。</p>
 <hr>
-<p><strong>虚拟世界的赚钱与情怀</strong></p>
-<p>在虚拟化阶段，最牛的公司是 VMware。它是实现虚拟化技术比较早的一家公司，可以实现计算、网络、存储的虚拟化。</p>
+<h4 id="虚拟世界的赚钱与情怀"><a href="#虚拟世界的赚钱与情怀" class="headerlink" title="虚拟世界的赚钱与情怀"></a>虚拟世界的赚钱与情怀</h4><p>在虚拟化阶段，最牛的公司是 VMware。它是实现虚拟化技术比较早的一家公司，可以实现计算、网络、存储的虚拟化。</p>
 <p>这家公司很牛，性能做得非常好，虚拟化软件卖得也非常好，赚了好多的钱，后来让 EMC(世界五百强，存储厂商第一品牌)给收购了。</p>
 <p>但这个世界上还是有很多有情怀的人的，尤其是程序员里面。有情怀的人喜欢做什么事情？开源。</p>
 <p>这个世界上很多软件都是有闭源就有开源，源就是源代码。也就是说，某个软件做的好，所有人都爱用，但这个软件的代码被我封闭起来，只有我公司知道，其他人不知道。</p>
@@ -74,8 +70,7 @@
 <p>所以大家可以看到几乎所有的其他手机厂商，里面都装安卓系统。原因就是苹果系统不开源，而安卓系统大家都可以用。</p>
 <p>在虚拟化软件也一样，有了 VMware，这个软件非常贵。那就有大牛写了两个开源的虚拟化软件，一个叫做 Xen，一个叫做 KVM，如果不做技术的，可以不用管这两个名字，但是后面还是会提到。</p>
 <hr>
-<p><strong>虚拟化的半自动和云计算的全自动</strong></p>
-<p>要说虚拟化软件解决了灵活性问题，其实并不全对。因为虚拟化软件一般创建一台虚拟的电脑，是需要人工指定这台虚拟电脑放在哪台物理机上的。</p>
+<h4 id="虚拟化的半自动和云计算的全自动"><a href="#虚拟化的半自动和云计算的全自动" class="headerlink" title="虚拟化的半自动和云计算的全自动"></a>虚拟化的半自动和云计算的全自动</h4><p>要说虚拟化软件解决了灵活性问题，其实并不全对。因为虚拟化软件一般创建一台虚拟的电脑，是需要人工指定这台虚拟电脑放在哪台物理机上的。</p>
 <p>这一过程可能还需要比较复杂的人工配置。所以使用 VMware 的虚拟化软件，需要考一个很牛的证书，而能拿到这个证书的人，薪资是相当高，也可见其复杂程度。</p>
 <p>所以仅仅凭虚拟化软件所能管理的物理机的集群规模都不是特别大，一般在十几台、几十台、最多百台这么一个规模。</p>
 <p><strong>这一方面会影响时间灵活性：</strong>虽然虚拟出一台电脑的时间很短，但是随着集群规模的扩大，人工配置的过程越来越复杂，越来越耗时。</p>
@@ -85,8 +80,7 @@
 <p>人们发明了各种各样的算法来做这个事情，算法的名字叫做调度(Scheduler)。</p>
 <p><strong>通俗一点说**</strong>，**就是有一个调度中心，几千台机器都在一个池子里面，无论用户需要多少 CPU、内存、硬盘的虚拟电脑，调度中心会自动在大池子里面找一个能够满足用户需求的地方，把虚拟电脑启动起来做好配置，用户就直接能用了。</p>
 <p>这个阶段我们称为池化或者云化。到了这个阶段，才可以称为云计算，在这之前都只能叫虚拟化。</p>
-<p><strong>云计算的私有与公有</strong></p>
-<p>云计算大致分两种：一个是私有云，一个是公有云，还有人把私有云和公有云连接起来称为混合云，这里暂且不说这个。</p>
+<h4 id="云计算的私有与公有"><a href="#云计算的私有与公有" class="headerlink" title="云计算的私有与公有"></a>云计算的私有与公有</h4><p>云计算大致分两种：一个是私有云，一个是公有云，还有人把私有云和公有云连接起来称为混合云，这里暂且不说这个。</p>
 <ul>
 <li><p><strong>私有云：</strong>把虚拟化和云化的这套软件部署在别人的数据中心里面。使用私有云的用户往往很有钱，自己买地建机房、自己买服务器，然后让云厂商部署在自己这里。</p>
 <p>VMware 后来除了虚拟化，也推出了云计算的产品，并且在私有云市场赚的盆满钵满。</p>
@@ -103,11 +97,10 @@
 <p>由于它的云平台需要支撑自己的电商应用；而传统的云计算厂商多为 IT 厂商出身，几乎没有自己的应用，所以亚马逊的云平台对应用更加友好，迅速发展成为云计算的第一品牌，赚了很多钱。</p>
 <p>在亚马逊公布其云计算平台财报之前，人们都猜测，亚马逊电商赚钱，云也赚钱吗？后来一公布财报，发现不是一般的赚钱。仅仅去年，亚马逊 AWS 年营收达 122 亿美元，运营利润 31 亿美元。</p>
 <hr>
-<p><strong>云计算的赚钱与情怀</strong></p>
-<p>公有云的第一名亚马逊过得很爽，第二名 Rackspace 过得就一般了。没办法，这就是互联网行业的残酷性，多是赢者通吃的模式。所以第二名如果不是云计算行业的，很多人可能都没听过了。</p>
+<h4 id="云计算的赚钱与情怀"><a href="#云计算的赚钱与情怀" class="headerlink" title="云计算的赚钱与情怀"></a>云计算的赚钱与情怀</h4><p>公有云的第一名亚马逊过得很爽，第二名 Rackspace 过得就一般了。没办法，这就是互联网行业的残酷性，多是赢者通吃的模式。所以第二名如果不是云计算行业的，很多人可能都没听过了。</p>
 <p>第二名就想，我干不过老大怎么办呢？开源吧。如上所述，亚马逊虽然使用了开源的虚拟化技术，但云化的代码是闭源的。</p>
 <p>很多想做又做不了云化平台的公司，只能眼巴巴的看着亚马逊挣大钱。Rackspace 把源代码一公开，整个行业就可以一起把这个平台越做越好，兄弟们大家一起上，和老大拼了。</p>
-<p><img src="/通俗易懂云计算/640 (1" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(1" alt="img">.webp)</p>
 <p>于是 Rackspace 和美国航空航天局合作创办了开源软件 OpenStack，如上图所示 OpenStack 的架构图，不是云计算行业的不用弄懂这个图。</p>
 <p><strong>但能够看到三个关键字：</strong>Compute 计算、Networking 网络、Storage 存储。还是一个计算、网络、存储的云化管理平台。</p>
 <p>当然第二名的技术也是非常棒的，有了 OpenStack 之后，果真像 Rackspace 想的一样，所有想做云的大企业都疯了，你能想象到的所有如雷贯耳的大型 IT 企业：IBM、惠普、戴尔、华为、联想等都疯了。</p>
@@ -124,13 +117,11 @@
 <p>你其实只用了 50 个 G，则真实给你的就是 50 个 G，随着你文件的不断上传，分给你的空间会越来越多。</p>
 <p>当大家都上传，云平台发现快满了的时候(例如用了 70%)，会采购更多的服务器，扩充背后的资源，这个对用户是透明的、看不到的。</p>
 <p>从感觉上来讲，就实现了云计算的弹性。其实有点像银行，给储户的感觉是什么时候取钱都有，只要不同时挤兑，银行就不会垮。</p>
-<hr>
 <p><strong>总结</strong></p>
 <p>到了这个阶段，云计算基本上实现了时间灵活性和空间灵活性；实现了计算、网络、存储资源的弹性。</p>
 <p>计算、网络、存储我们常称为基础设施 Infranstracture, 因而这个阶段的弹性称为资源层面的弹性。</p>
 <p>管理资源的云平台，我们称为基础设施服务，也就是我们常听到的 IaaS（Infranstracture As A Service）。</p>
-<p>云计算不光管资源，也要管应用</p>
-<p><img src="/通俗易懂云计算/640 (2" alt="img">.webp)</p>
+<h3 id="云计算不光管资源，也要管应用（PaaS）"><a href="#云计算不光管资源，也要管应用（PaaS）" class="headerlink" title="云计算不光管资源，也要管应用（PaaS）"></a>云计算不光管资源，也要管应用（PaaS）</h3><p><img src="/通俗易懂云计算/640(2" alt="img">.webp)</p>
 <p>有了 IaaS，实现了资源层面的弹性就够了吗？显然不是，还有应用层面的弹性。</p>
 <p>这里举个例子：比如说实现一个电商的应用，平时十台机器就够了，双十一需要一百台。你可能觉得很好办啊，有了 IaaS，新创建九十台机器就可以了啊。</p>
 <p>但 90 台机器创建出来是空的，电商应用并没有放上去，只能让公司的运维人员一台一台的弄，需要很长时间才能安装好的。</p>
@@ -154,18 +145,18 @@
 <p>比如您是一个做单车的，当然没必要招一个非常大的数据库团队来干这件事情，成本太高了，应该交给云平台来做这件事情。</p>
 <p>专业的事情专业的人来做，云平台专门养了几百人维护这套系统，您只要专注于您的单车应用就可以了。</p>
 <p>要么是自动部署，要么是不用部署，总的来说就是应用层你也要少操心，这就是 PaaS 层的重要作用。</p>
-<p><img src="/通俗易懂云计算/640 (3" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(3" alt="img">.webp)</p>
 <p>虽说脚本的方式能够解决自己的应用的部署问题，然而不同的环境千差万别，一个脚本往往在一个环境上运行正确，到另一个环境就不正确了。</p>
 <p>而容器是能更好地解决这个问题。</p>
-<p><img src="/通俗易懂云计算/640 (4" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(4" alt="img">.webp)</p>
 <p>容器是 Container，Container 另一个意思是集装箱，其实容器的思想就是要变成软件交付的集装箱。集装箱的特点：一是封装，二是标准。</p>
-<p><img src="/通俗易懂云计算/640 (5" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(5" alt="img">.webp)</p>
 <p>在没有集装箱的时代，假设将货物从 A 运到 B，中间要经过三个码头、换三次船。</p>
 <p>每次都要将货物卸下船来，摆得七零八落，然后搬上船重新整齐摆好。因此在没有集装箱时，每次换船，船员们都要在岸上待几天才能走。</p>
-<p><img src="/通俗易懂云计算/640 (6" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(6" alt="img">.webp)</p>
 <p>有了集装箱以后，所有的货物都打包在一起了，并且集装箱的尺寸全部一致，所以每次换船时，一个箱子整体搬过去就行了，小时级别就能完成，船员再也不用上岸长时间耽搁了。</p>
 <p>这是集装箱“封装”、“标准”两大特点在生活中的应用。</p>
-<p><img src="/通俗易懂云计算/640 (7" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(7" alt="img">.webp)</p>
 <p>那么容器如何对应用打包呢？还是要学习集装箱。首先要有个封闭的环境，将货物封装起来，让货物之间互不干扰、互相隔离，这样装货卸货才方便。好在 Ubuntu 中的 LXC 技术早就能做到这一点。</p>
 <p>封闭的环境主要使用了两种技术：</p>
 <ul>
@@ -175,11 +166,9 @@
 <p>所谓的镜像，就是将你焊好集装箱的那一刻，将集装箱的状态保存下来，就像孙悟空说：“定”，集装箱里面就定在了那一刻，然后将这一刻的状态保存成一系列文件。</p>
 <p>这些文件的格式是标准的，谁看到这些文件都能还原当时定住的那个时刻。将镜像还原成运行时的过程（就是读取镜像文件，还原那个时刻的过程），就是容器运行的过程。</p>
 <p>有了容器，使得 PaaS 层对于用户自身应用的自动部署变得快速而优雅。</p>
-<p>大数据拥抱云计算</p>
-<p>在 PaaS 层中一个复杂的通用应用就是大数据平台。大数据是如何一步一步融入云计算的呢？</p>
+<h3 id="大数据拥抱云计算（SaaS）"><a href="#大数据拥抱云计算（SaaS）" class="headerlink" title="大数据拥抱云计算（SaaS）"></a>大数据拥抱云计算（SaaS）</h3><p>在 PaaS 层中一个复杂的通用应用就是大数据平台。大数据是如何一步一步融入云计算的呢？</p>
 <hr>
-<p><strong>数据不大也包含智慧</strong></p>
-<p>一开始这个大数据并不大。原来才有多少数据？现在大家都去看电子书，上网看新闻了，在我们 80 后小时候，信息量没有那么大，也就看看书、看看报，一个星期的报纸加起来才有多少字？</p>
+<h4 id="数据不大也包含智慧"><a href="#数据不大也包含智慧" class="headerlink" title="数据不大也包含智慧"></a>数据不大也包含智慧</h4><p>一开始这个大数据并不大。原来才有多少数据？现在大家都去看电子书，上网看新闻了，在我们 80 后小时候，信息量没有那么大，也就看看书、看看报，一个星期的报纸加起来才有多少字？</p>
 <p>如果你不在一个大城市，一个普通的学校的图书馆加起来也没几个书架，是后来随着信息化的到来，信息才会越来越多。</p>
 <p>首先我们来看一下大数据里面的数据，就分三种类型：</p>
 <ul>
@@ -201,9 +190,8 @@
 <p>用户在我的应用或者网站上随便点点鼠标，输入文字对我来说都是数据，我就是要将其中某些东西提取出来、指导实践、形成智慧，让用户陷入到我的应用里面不可自拔，上了我的网就不想离开，手不停地点、不停地买。</p>
 <p>很多人说双十一我都想断网了，我老婆在上面不断地买买买，买了 A 又推荐 B，老婆大人说，“哎呀，B 也是我喜欢的啊，老公我要买”。</p>
 <p>你说这个程序怎么这么牛，这么有智慧，比我还了解我老婆，这件事情是怎么做到的呢？</p>
-<p><img src="/通俗易懂云计算/640 (8" alt="img">.webp)</p>
-<p><strong>数据如何升华为智慧</strong></p>
-<p>数据的处理分以下几个步骤，完成了才最后会有智慧：</p>
+<p><img src="/通俗易懂云计算/640(8" alt="img">.webp)</p>
+<h4 id="数据如何升华为智慧"><a href="#数据如何升华为智慧" class="headerlink" title="数据如何升华为智慧"></a>数据如何升华为智慧</h4><p>数据的处理分以下几个步骤，完成了才最后会有智慧：</p>
 <ul>
 <li><strong>数据收集</strong></li>
 <li><strong>数据传输</strong></li>
@@ -236,30 +224,27 @@
 <p>另外就是挖掘，仅仅搜索出来已经不能满足人们的要求了，还需要从信息中挖掘出相互的关系。</p>
 <p>比如财经搜索，当搜索某个公司股票的时候，该公司的高管是不是也应该被挖掘出来呢？</p>
 <p>如果仅仅搜索出这个公司的股票发现涨的特别好，于是你就去买了，其时其高管发了一个声明，对股票十分不利，第二天就跌了，这不坑害广大股民么？所以通过各种算法挖掘数据中的关系，形成知识库，十分重要。</p>
-<p><img src="/通俗易懂云计算/640 (9" alt="img">.webp)</p>
-<p><img src="/通俗易懂云计算/640 (10" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(9" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(10" alt="img">.webp)</p>
 <hr>
-<p><strong>大数据时代，众人拾柴火焰高</strong></p>
-<p>当数据量很小时，很少的几台机器就能解决。慢慢的，当数据量越来越大，最牛的服务器都解决不了问题时，怎么办呢？</p>
+<h4 id="大数据时代，众人拾柴火焰高"><a href="#大数据时代，众人拾柴火焰高" class="headerlink" title="大数据时代，众人拾柴火焰高"></a>大数据时代，众人拾柴火焰高</h4><p>当数据量很小时，很少的几台机器就能解决。慢慢的，当数据量越来越大，最牛的服务器都解决不了问题时，怎么办呢？</p>
 <p>这时就要聚合多台机器的力量，大家齐心协力一起把这个事搞定，众人拾柴火焰高。</p>
 <p><strong>对于数据的收集：</strong>就 IoT 来讲，外面部署着成千上万的检测设备，将大量的温度、湿度、监控、电力等数据统统收集上来；就互联网网页的搜索引擎来讲，需要将整个互联网所有的网页都下载下来。</p>
 <p>这显然一台机器做不到，需要多台机器组成网络爬虫系统，每台机器下载一部分，同时工作，才能在有限的时间内，将海量的网页下载完毕。</p>
-<p><img src="/通俗易懂云计算/640 (11" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(11" alt="img">.webp)</p>
 <p><strong>对于数据的传输：</strong>一个内存里面的队列肯定会被大量的数据挤爆掉，于是就产生了基于硬盘的分布式队列，这样队列可以多台机器同时传输，随你数据量多大，只要我的队列足够多，管道足够粗，就能够撑得住。</p>
-<p><img src="/通俗易懂云计算/640 (12" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(12" alt="img">.webp)</p>
 <p><strong>对于数据的存储：</strong>一台机器的文件系统肯定是放不下的，所以需要一个很大的分布式文件系统来做这件事情，把多台机器的硬盘打成一块大的文件系统。</p>
-<p><img src="/通俗易懂云计算/640 (13" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(13" alt="img">.webp)</p>
 <p><strong>对于数据的分析：</strong>可能需要对大量的数据做分解、统计、汇总，一台机器肯定搞不定，处理到猴年马月也分析不完。</p>
 <p>于是就有分布式计算的方法，将大量的数据分成小份，每台机器处理一小份，多台机器并行处理，很快就能算完。</p>
 <p>例如著名的 Terasort 对 1 个 TB 的数据排序，相当于 1000G，如果单机处理，怎么也要几个小时，但并行处理 209 秒就完成了。</p>
-<p><img src="/通俗易懂云计算/640 (14" alt="img">.webp)</p>
-<p><img src="/通俗易懂云计算/640 (15" alt="img">.webp)</p>
-<p><img src="/通俗易懂云计算/640 (16" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(14" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(15" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(16" alt="img">.webp)</p>
 <p>所以说什么叫做大数据？说白了就是一台机器干不完，大家一起干。</p>
 <p>可是随着数据量越来越大，很多不大的公司都需要处理相当多的数据，这些小公司没有这么多机器可怎么办呢？</p>
-<hr>
-<p><strong>大数据需要云计算，云计算需要大数据</strong></p>
-<p>说到这里，大家想起云计算了吧。当想要干这些活时，需要很多的机器一块做，真的是想什么时候要就什么时候要，想要多少就要多少。</p>
+<h4 id="大数据需要云计算，云计算需要大数据"><a href="#大数据需要云计算，云计算需要大数据" class="headerlink" title="大数据需要云计算，云计算需要大数据"></a>大数据需要云计算，云计算需要大数据</h4><p>说到这里，大家想起云计算了吧。当想要干这些活时，需要很多的机器一块做，真的是想什么时候要就什么时候要，想要多少就要多少。</p>
 <p>例如大数据分析公司的财务情况，可能一周分析一次，如果要把这一百台机器或者一千台机器都在那放着，一周用一次非常浪费。</p>
 <p>那能不能需要计算的时候，把这一千台机器拿出来；不算的时候，让这一千台机器去干别的事情？</p>
 <p>谁能做这个事儿呢？只有云计算，可以为大数据的运算提供资源层的灵活性。</p>
@@ -270,35 +255,31 @@
 <p>云计算需要大数据，大数据需要云计算，二者就这样结合了。</p>
 <p>人工智能拥抱大数据</p>
 <hr>
-<p><strong>机器什么时候才能懂人心</strong></p>
-<p>虽说有了大数据，人的欲望却不能够满足。虽说在大数据平台里面有搜索引擎这个东西，想要什么东西一搜就出来了。</p>
-<p><strong>但也存在这样的情况：</strong>我想要的东西不会搜，表达不出来，搜索出来的又不是我想要的。</p>
+<h4 id="机器什么时候才能懂人心"><a href="#机器什么时候才能懂人心" class="headerlink" title="机器什么时候才能懂人心"></a>机器什么时候才能懂人心</h4><p>虽说有了大数据，人的欲望却不能够满足。虽说在大数据平台里面有搜索引擎这个东西，想要什么东西一搜就出来了。</p>
+<p>但也存在这样的情况：我想要的东西不会搜，表达不出来，搜索出来的又不是我想要的。</p>
 <p>例如音乐软件推荐了一首歌，这首歌我没听过，当然不知道名字，也没法搜。但是软件推荐给我，我的确喜欢，这就是搜索做不到的事情。</p>
 <p>当人们使用这种应用时，会发现机器知道我想要什么，而不是说当我想要时，去机器里面搜索。这个机器真像我的朋友一样懂我，这就有点人工智能的意思了。</p>
 <p>人们很早就在想这个事情了。最早的时候，人们想象，要是有一堵墙，墙后面是个机器，我给它说话，它就给我回应。</p>
 <p>如果我感觉不出它那边是人还是机器，那它就真的是一个人工智能的东西了。</p>
-<p><strong>让机器学会推理</strong></p>
-<p>怎么才能做到这一点呢？人们就想：我首先要告诉计算机人类推理的能力。你看人重要的是什么？人和动物的区别在什么？就是能推理。</p>
+<h5 id="让机器学会推理"><a href="#让机器学会推理" class="headerlink" title="让机器学会推理"></a>让机器学会推理</h5><p>怎么才能做到这一点呢？人们就想：我首先要告诉计算机人类推理的能力。你看人重要的是什么？人和动物的区别在什么？就是能推理。</p>
 <p>要是把我这个推理的能力告诉机器，让机器根据你的提问，推理出相应的回答，这样多好？</p>
 <p>其实目前人们慢慢地让机器能够做到一些推理了，例如证明数学公式。这是一个非常让人惊喜的一个过程，机器竟然能够证明数学公式。</p>
 <p>但慢慢又发现这个结果也没有那么令人惊喜。因为大家发现了一个问题：数学公式非常严谨，推理过程也非常严谨，而且数学公式很容易拿机器来进行表达，程序也相对容易表达。</p>
 <p>然而人类的语言就没这么简单了。比如今天晚上，你和你女朋友约会，你女朋友说：如果你早来，我没来，你等着；如果我早来，你没来，你等着！</p>
 <p>这个机器就比较难理解了，但人都懂。所以你和女朋友约会，是不敢迟到的。</p>
 <hr>
-<p><strong>教给机器知识</strong></p>
-<p>因此，仅仅告诉机器严格的推理是不够的，还要告诉机器一些知识。但告诉机器知识这个事情，一般人可能就做不来了。可能专家可以，比如语言领域的专家或者财经领域的专家。</p>
+<h5 id="教给机器知识"><a href="#教给机器知识" class="headerlink" title="教给机器知识"></a>教给机器知识</h5><p>因此，仅仅告诉机器严格的推理是不够的，还要告诉机器一些知识。但告诉机器知识这个事情，一般人可能就做不来了。可能专家可以，比如语言领域的专家或者财经领域的专家。</p>
 <p>语言领域和财经领域知识能不能表示成像数学公式一样稍微严格点呢？例如语言专家可能会总结出主谓宾定状补这些语法规则，主语后面一定是谓语，谓语后面一定是宾语，将这些总结出来，并严格表达出来不就行了吗？</p>
 <p>后来发现这个不行，太难总结了，语言表达千变万化。就拿主谓宾的例子，很多时候在口语里面就省略了谓语，别人问：你谁啊？我回答：我刘超。</p>
 <p>但你不能规定在语音语义识别时，要求对着机器说标准的书面语，这样还是不够智能，就像罗永浩在一次演讲中说的那样，每次对着手机，用书面语说：请帮我呼叫某某某，这是一件很尴尬的事情。</p>
 <p>人工智能这个阶段叫做专家系统。专家系统不易成功，一方面是知识比较难总结，另一方面总结出来的知识难以教给计算机。</p>
 <p>因为你自己还迷迷糊糊，觉得似乎有规律，就是说不出来，又怎么能够通过编程教给计算机呢？</p>
 <hr>
-<p><strong>算了，教不会你自己学吧</strong></p>
-<p><strong>于是人们想到：</strong>机器是和人完全不一样的物种，干脆让机器自己学习好了。</p>
+<h5 id="算了，教不会你自己学吧"><a href="#算了，教不会你自己学吧" class="headerlink" title="算了，教不会你自己学吧"></a>算了，教不会你自己学吧</h5><p><strong>于是人们想到：</strong>机器是和人完全不一样的物种，干脆让机器自己学习好了。</p>
 <p>机器怎么学习呢？既然机器的统计能力这么强，基于统计学习，一定能从大量的数字中发现一定的规律。</p>
 <p><strong>其实在娱乐圈有很好的一个例子，可窥一斑：</strong></p>
 <p>有一位网友统计了知名歌手在大陆发行的 9 张专辑中 117 首歌曲的歌词，同一词语在一首歌出现只算一次，形容词、名词和动词的前十名如下表所示（词语后面的数字是出现的次数）：</p>
-<p><img src="/通俗易懂云计算/640 (17" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(17" alt="img">.webp)</p>
 <p>如果我们随便写一串数字，然后按照数位依次在形容词、名词和动词中取出一个词，连在一起会怎么样呢？</p>
 <p>例如取圆周率 3.1415926，对应的词语是：坚强，路，飞，自由，雨，埋，迷惘。</p>
 <p>稍微连接和润色一下：</p>
@@ -312,16 +293,15 @@
 <p><strong>然而统计学习比较容易理解简单的相关性：</strong>例如一个词和另一个词总是一起出现，两个词应该有关系；而无法表达复杂的相关性。</p>
 <p>并且统计方法的公式往往非常复杂，为了简化计算，常常做出各种独立性的假设，来降低公式的计算难度，然而现实生活中，具有独立性的事件是相对较少的。</p>
 <hr>
-<p><strong>模拟大脑的工作方式</strong></p>
-<p>于是人类开始从机器的世界，反思人类的世界是怎么工作的。</p>
-<p><img src="/通俗易懂云计算/640 (18" alt="img">.webp)</p>
+<h5 id="模拟大脑的工作方式"><a href="#模拟大脑的工作方式" class="headerlink" title="模拟大脑的工作方式"></a>模拟大脑的工作方式</h5><p>于是人类开始从机器的世界，反思人类的世界是怎么工作的。</p>
+<p><img src="/通俗易懂云计算/640(18" alt="img">.webp)</p>
 <p>人类的脑子里面不是存储着大量的规则，也不是记录着大量的统计数据，而是通过神经元的触发实现的。</p>
 <p>每个神经元有从其他神经元的输入，当接收到输入时，会产生一个输出来刺激其他神经元。于是大量的神经元相互反应，最终形成各种输出的结果。</p>
 <p>例如当人们看到美女瞳孔会放大，绝不是大脑根据身材比例进行规则判断，也不是将人生中看过的所有的美女都统计一遍，而是神经元从视网膜触发到大脑再回到瞳孔。</p>
 <p>在这个过程中，其实很难总结出每个神经元对最终的结果起到了哪些作用，反正就是起作用了。</p>
 <p>于是人们开始用一个数学单元模拟神经元。</p>
 <p>这个神经元有输入，有输出，输入和输出之间通过一个公式来表示，输入根据重要程度不同(权重)，影响着输出。</p>
-<p><img src="/通俗易懂云计算/640 (19" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(19" alt="img">.webp)</p>
 <p>于是将 n 个神经元通过像一张神经网络一样连接在一起。n 这个数字可以很大很大，所有的神经元可以分成很多列，每一列很多个排列起来。</p>
 <p>每个神经元对于输入的权重可以都不相同，从而每个神经元的公式也不相同。当人们从这张网络中输入一个东西的时候，希望输出一个对人类来讲正确的结果。</p>
 <p><strong>例如上面的例子，</strong>输入一个写着 2 的图片，输出的列表里面第二个数字最大，其实从机器来讲，它既不知道输入的这个图片写的是 2，也不知道输出的这一系列数字的意义，没关系，人知道意义就可以了。</p>
@@ -331,15 +311,13 @@
 <p>如何调整呢？就是每个神经元的每个权重都向目标进行微调，由于神经元和权重实在是太多了，所以整张网络产生的结果很难表现出非此即彼的结果，而是向着结果微微地进步，最终能够达到目标结果。</p>
 <p>当然，这些调整的策略还是非常有技巧的，需要算法的高手来仔细的调整。正如人类见到美女，瞳孔一开始没有放大到能看清楚，于是美女跟别人跑了，下次学习的结果是瞳孔放大一点点，而不是放大鼻孔。</p>
 <hr>
-<p><strong>没道理但做得到</strong></p>
-<p>听起来也没有那么有道理，但的确能做到，就是这么任性！</p>
+<h5 id="没道理但做得到"><a href="#没道理但做得到" class="headerlink" title="没道理但做得到"></a>没道理但做得到</h5><p>听起来也没有那么有道理，但的确能做到，就是这么任性！</p>
 <p>神经网络的普遍性定理是这样说的，假设某个人给你某种复杂奇特的函数，f(x)：</p>
-<p><img src="/通俗易懂云计算/640 (20" alt="img">.webp)</p>
+<p><img src="/通俗易懂云计算/640(20" alt="img">.webp)</p>
 <p>不管这个函数是什么样的，总会确保有个神经网络能够对任何可能的输入 x，其值 f(x)（或者某个能够准确的近似）是神经网络的输出。</p>
 <p>如果在函数代表着规律，也意味着这个规律无论多么奇妙，多么不能理解，都是能通过大量的神经元，通过大量权重的调整，表示出来的。</p>
-<p><strong>人工智能的经济学解释</strong></p>
-<p>这让我想到了经济学，于是比较容易理解了。</p>
-<p><img src="/通俗易懂云计算/640 (21" alt="img">.webp)</p>
+<h5 id="人工智能的经济学解释"><a href="#人工智能的经济学解释" class="headerlink" title="人工智能的经济学解释"></a>人工智能的经济学解释</h5><p>这让我想到了经济学，于是比较容易理解了。</p>
+<p><img src="/通俗易懂云计算/640(21" alt="img">.webp)</p>
 <p>我们把每个神经元当成社会中从事经济活动的个体。于是神经网络相当于整个经济社会，每个神经元对于社会的输入，都有权重的调整，做出相应的输出。</p>
 <p>比如工资涨了、菜价涨了、股票跌了，我应该怎么办、怎么花自己的钱。这里面没有规律么？肯定有，但是具体什么规律呢？很难说清楚。</p>
 <p>基于专家系统的经济属于计划经济。整个经济规律的表示不希望通过每个经济个体的独立决策表现出来，而是希望通过专家的高屋建瓴和远见卓识总结出来。但专家永远不可能知道哪个城市的哪个街道缺少一个卖甜豆腐脑的。</p>
@@ -352,8 +330,7 @@
 <p>而每个人根据整个社会的输入进行独立决策，当某些因素经过多次训练，也会形成宏观上统计性的规律，这也就是宏观经济学所能看到的。</p>
 <p>例如每次货币大量发行，最后房价都会上涨，多次训练后，人们也就都学会了。</p>
 <hr>
-<p><strong>人工智能需要大数据</strong></p>
-<p>然而，神经网络包含这么多的节点，每个节点又包含非常多的参数，整个参数量实在是太大了，需要的计算量实在太大。</p>
+<h5 id="人工智能需要大数据"><a href="#人工智能需要大数据" class="headerlink" title="人工智能需要大数据"></a>人工智能需要大数据</h5><p>然而，神经网络包含这么多的节点，每个节点又包含非常多的参数，整个参数量实在是太大了，需要的计算量实在太大。</p>
 <p>但没有关系，我们有大数据平台，可以汇聚多台机器的力量一起来计算，就能在有限的时间内得到想要的结果。</p>
 <p>人工智能可以做的事情非常多，例如可以鉴别垃圾邮件、鉴别黄色暴力文字和图片等。</p>
 <p>这也是经历了三个阶段的：</p>
